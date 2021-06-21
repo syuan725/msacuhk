@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Favicon -->
 </head>
 
 <body>
@@ -58,8 +77,23 @@
                         </ul>
                     </div>
                 </a>
-                <a href="sponsors.html" class="mr-10 hover:text-gray-900">Sponsors</a>
-                <a href="prospective_students.html" class="mr-10 hover:text-gray-900">Prospective Students</a>
+                <a href="sponsors.html" class="hover:text-gray-900">Sponsors</a>
+                <a href="current_students.html" class="mr-10 hover:text-gray-900">
+                    <div class="dropdown">
+                        <button>Sharing</button>
+                        <ul class="dropdown-menu absolute hidden text-gray-700 pt-2">
+                            <li class=""><a
+                                    class="rounded-t bg-lightbrown hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                    href="current_students.html">Current Students</a></li>
+                            <li class=""><a
+                                    class="rounded-b bg-lightbrown hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                    href="prospective_students.html">Prospective Studnets</a></li>
+                            <li class=""><a
+                                    class="rounded-b bg-lightbrown hover:bg-gray-400 py-2 px-4 block whitespace-no-wrap"
+                                    href="non_malaysians.html">Non-Malaysians</a></li>
+                        </ul>
+                    </div>
+                </a>
                 <a href="contact_us.html" class="mr-10 hover:text-gray-900">Contact Us</a>
             </nav>
             <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
@@ -82,14 +116,17 @@
         </div>
     </header>
 
-    <section class="text-gray-600 px-16 font-body">
+    <section class="text-gray-600 px-4 md:px-8 lg:px-16 font-body">
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
-            <div class="lg:pl-28 lg:pt-20 pt-10 pl-16 lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden border-t-4 border-b-4 border-black">
-                <div class="container-iframe overflow-hidden">
-                    <iframe class="responsive-iframe" src="https://drive.google.com/file/d/1aO-x3dCgusurZTsemtxJmGmNrdry08bR/preview" allowfullscreen="allowfullscreen"></iframe>
+            <div
+                class="p-4 lg:w-1/2 w-full rounded-lg overflow-hidden">
+                <div class="videoWrapper overflow-hidden">
+                    <iframe src="https://drive.google.com/file/d/1aO-x3dCgusurZTsemtxJmGmNrdry08bR/preview"
+                        allowfullscreen="allowfullscreen"></iframe>
                 </div>
             </div>
-            <div class="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center leading-7">
+            <div
+                class="flex flex-col flex-wrap lg:py-6 my-10 lg:my-0 lg:w-1/2 lg:pl-12 lg:text-left text-center leading-7">
                 <p class="mb-4">
                     The Malaysian Students’ Association of The Chinese University of Hong Kong (MSACUHK) was founded in
                     August
@@ -118,7 +155,7 @@
         </div>
     </section>
 
-    <section class="text-gray-600 px-16 font-body">
+    <section class="text-gray-600 px-4 md:px-8 lg:px-16 font-body">
         <div class="container px-5 py-24 mx-auto">
             <div class="flex flex-col text-center w-full mb-20">
                 <h1 class="sm:text-3xl text-2xl font-medium font-title mb-4 text-gray-900">Gallery</h1>
@@ -134,7 +171,8 @@
                             <h2 class="tracking-widest text-sm font-title font-medium text-indigo-500 mb-1">27 Mar 2021
                             </h2>
                             <h1 class="font-title text-lg font-medium text-gray-900 mb-3">LIFE 2021: Career Sharing</h1>
-                            <p class="leading-relaxed">Photos of members attending our career sharing session - LIFE 2021: Career Sharing</p>
+                            <p class="leading-relaxed">Photos of members attending our career sharing session - LIFE
+                                2021: Career Sharing</p>
                         </div>
                     </div>
                 </div>
@@ -146,8 +184,9 @@
                             class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm font-title font-medium text-indigo-500 mb-1">27 Mar 2021
                             </h2>
-                            <h1 class="font-title text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                            <p class="leading-relaxed">Photos of members attending our career sharing session - LIFE 2021: Career Sharing</p>
+                            <h1 class="font-title text-lg font-medium text-gray-900 mb-3">LIFE 2021: Career Sharing</h1>
+                            <p class="leading-relaxed">Photos of members attending our career sharing session - LIFE
+                                2021: Career Sharing</p>
                         </div>
                     </div>
                 </div>
@@ -159,8 +198,9 @@
                             class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                             <h2 class="tracking-widest text-sm font-title font-medium text-indigo-500 mb-1">27 Mar 2021
                             </h2>
-                            <h1 class="font-title text-lg font-medium text-gray-900 mb-3">The Catalyzer</h1>
-                            <p class="leading-relaxed">Photos of members attending our career sharing session - LIFE 2021: Career Sharing</p>
+                            <h1 class="font-title text-lg font-medium text-gray-900 mb-3">LIFE 2021: Career Sharing</h1>
+                            <p class="leading-relaxed">Photos of members attending our career sharing session - LIFE
+                                2021: Career Sharing</p>
                         </div>
                     </div>
                 </div>
@@ -173,7 +213,8 @@
                             <h2 class="tracking-widest text-sm font-title font-medium text-indigo-500 mb-1">23 Dec 2020
                             </h2>
                             <h1 class="font-title text-lg font-medium text-gray-900 mb-3">Back to CU!</h1>
-                            <p class="leading-relaxed">We organised an information session to assist our members in making their preparations.</p>
+                            <p class="leading-relaxed">We organised an information session to assist our members in
+                                making their preparations.</p>
                         </div>
                     </div>
                 </div>
@@ -186,7 +227,8 @@
                             <h2 class="tracking-widest text-sm font-title font-medium text-indigo-500 mb-1">23 Dec 2020
                             </h2>
                             <h1 class="font-title text-lg font-medium text-gray-900 mb-3">Back to CU!</h1>
-                            <p class="leading-relaxed">We organised an information session to assist our members in making their preparations.</p>
+                            <p class="leading-relaxed">We organised an information session to assist our members in
+                                making their preparations.</p>
                         </div>
                     </div>
                 </div>
@@ -199,7 +241,8 @@
                             <h2 class="tracking-widest text-sm font-title font-medium text-indigo-500 mb-1">23 Dec 2020
                             </h2>
                             <h1 class="font-title text-lg font-medium text-gray-900 mb-3">Back to CU!</h1>
-                            <p class="leading-relaxed">We organised an information session to assist our members in making their preparations.</p>
+                            <p class="leading-relaxed">We organised an information session to assist our members in
+                                making their preparations.</p>
                         </div>
                     </div>
                 </div>
